@@ -4,7 +4,16 @@ import pymunk as pm
 import sys
 import math
 
-from assets import SandTop, SandBottom, BorderTop, BorderBottom, PinballBar, PinballSmallBar, Buttons, Lighthouses, Ball
+from assets import (SandTop,
+                    SandBottom,
+                    BorderTop,
+                    BorderBottom,
+                    PinballBar, 
+                    PinballSmallBar, 
+                    Buttons, 
+                    Lighthouses, 
+                    Ball)
+                    
 from physics import Circle, Poly, post_solve_lighthouse_ball
 from os.path import join
 from json import loads
